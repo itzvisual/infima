@@ -1,12 +1,8 @@
-.contenedor1 {
-	max-width: 900px;
-	max-height: 900px;
-}
 
-body { 
-  
-  
+body {  
+
   margin: 0;
+  
   align-items: center;
   justify-content: center;
   background-image: url('img/image.jpg');
@@ -17,7 +13,9 @@ body {
   height: 100vh;
   width: 100%;
   overflow: auto;
-  background-attatchment: fixed;
+  background-attachment: fixed;
+
+  
 }
 
 .linktext:hover {
@@ -34,6 +32,13 @@ td a {
    display: block; 
    padding: 6px; 
 }
+
+.video{
+	height: 50%;
+	
+}
+
+
 
 .imagentd{
 	width: 2.9em;
@@ -53,15 +58,9 @@ th {
 	background-color: #EAEAEA;
 	height:3.5em;
 }
-.Table1 {
-	
-  width: 800px;
-  height: 400px;
-  margin: auto;
-}
 
 
-.blueTable {
+.blueTable,.Table1 {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -72,29 +71,37 @@ th {
 	-webkit-box-shadow: 5px 5px 15px 13px rgba(0,0,0,0.8); 
 	box-shadow: 5px 5px 15px 13px rgba(0,0,0,0.8);
 	overflow: hidden;
-	width: 40%;
-	height: auto
+	width: 100%;
 }
 
-iframe {
-  width: 50vw;
+.blueTable {
+	width:auto;
+}
+
+.Table1 {
+	
+  width: 800px;
+  height: 400px;
   margin: auto;
+  
+	
+	
+	
+}
+iframe {
+ width: 100%;
+ height: 100%;
+  margin: auto;
+  padding: auto;
 }
 @media (max-width: 860px) {
-  .blueTable {
-	width: 50vw;
-	height: 50vw;
+  .blueTable, .Table1 {
+	width: 80vw;
+	height: 80vw;
 	margin: auto;
     font-size: 20px;}
 }
 @media (max-width: 860px) {
 iframe {
 width: 95vw;}
-}
-
-@media (max-width: 860px) {
-.Table1 {
-	width: 50vw;
-	height: auto;
-	margin: auto;
 }
